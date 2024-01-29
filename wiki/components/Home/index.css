@@ -1,0 +1,85 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    color:#807e7e;
+    font-size: 40px;
+  }
+  .wiki-logo{
+    height: 15vh;
+    width: 20vh;
+    padding: 10px;
+  }
+  .search-box{
+    max-width: 480px;
+    border-radius: 16px;
+    width: 100%;
+  }
+  .search-box input{
+    display: block;
+      appearance: none;
+      border-radius: 16px;
+      border-color: #aeacac51;
+      border-width: 1px;
+      padding: 16px;
+      width: 100%;
+      transition: 0.4s;
+  }
+  .search-box:focus-within {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    transform:translateY(-5px);
+  }
+  
+  .results-container{
+    max-width: 768px;
+    margin: auto;
+  }
+  
+  .results{
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: white;
+    border-radius: 15px;
+  }
+   
+  .results:hover{
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+  }
+  
+  h3{
+    color:#888;
+    font-size: 20px;
+  }
+   p{
+    color: black;
+    font-size: 16px;
+  }
+  
+  p .searchmatch{
+    font-weight: 700;
+  }
+  
+  a{
+    display: inline-block;
+    padding: 12px;
+     background-color: rgba(72, 72, 244, 0.942);
+     color: white;
+     text-decoration: none;
+     border-radius: 10px;
+  }
+  a:hover{
+    background-color: rgb(248, 70, 212);
+  }
+
+  
